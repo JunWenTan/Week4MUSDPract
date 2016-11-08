@@ -1,5 +1,6 @@
 package com.example.a153907n_mysuperhero.mysuperhero;
 
+
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onNothingSelected(AdapterView<?> arg0)
             {
-                superHeroTV.setText("There is no sper Heroes for this area.");
+                superHeroTV.setText("There is no super Heroes for this area.");
             }
         });
 
